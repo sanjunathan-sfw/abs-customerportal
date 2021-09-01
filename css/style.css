@@ -274,12 +274,20 @@ h3.cciname
 {
     input#phone {
         padding-left: 16% !important;
-    }   
+    }  
+    .popuptable
+    {
+        font-size: 10px;
+    }
 }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
     input#phone {
         padding-left: 11% !important;
+    }
+    .popuptable
+    {
+        font-size: 17px;
     }
     #login_right_panel .right_wrapper .rtitle h3
     {
@@ -304,6 +312,7 @@ h3.cciname
         text-decoration-thickness: 3px;  
         text-underline-offset: 0.4em
     }
+    
     #login_left_panel .fontres
     {
         font-size: 15px;        
@@ -382,4 +391,5 @@ h3.cciname
     input#phone {
         padding-left: 16% !important;
     }
+    
 }
